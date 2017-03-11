@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Ticket">
+  <DataContextMoniker Name="/TicketDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c0825f51-f6c0-48b7-8462-1847941be8bf" absoluteBounds="3.5, 5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/TicketDataContext/Bilet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c28392f4-79fb-4bda-8094-537739855759" absoluteBounds="3.515, 5.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5e1c705c-f99b-429f-ab0f-f7ec8e6ea918" absoluteBounds="0.75, 1.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/TicketDataContext/City" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6cee6746-97cd-4b78-8e14-6bb92ed8633d" absoluteBounds="0.765, 2.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="97bb66cf-b5b4-4250-8099-0c63f4c934bf" absoluteBounds="0.75, 5.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/TicketDataContext/Gorod" />
+      <nestedChildShapes>
+        <elementListCompartment Id="56a548f6-be75-4371-85c2-c32e7a82c93c" absoluteBounds="0.765, 6.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="30eb21a1-9528-499a-b985-6bb12b0671bd" absoluteBounds="3.5, 1, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/TicketDataContext/Ticket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39c26940-d240-4f5d-80ae-7a9aa92f0d04" absoluteBounds="3.515, 1.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 6.34699625651042); (3.5 : 6.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TicketDataContext/Gorod/Gorod_Bilet" />
+      <nodes>
+        <classShapeMoniker Id="97bb66cf-b5b4-4250-8099-0c63f4c934bf" />
+        <classShapeMoniker Id="c0825f51-f6c0-48b7-8462-1847941be8bf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.98599812825521); (3.5 : 5.98599812825521)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TicketDataContext/Gorod/Gorod_Bilet1" />
+      <nodes>
+        <classShapeMoniker Id="97bb66cf-b5b4-4250-8099-0c63f4c934bf" />
+        <classShapeMoniker Id="c0825f51-f6c0-48b7-8462-1847941be8bf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.34699625651042); (3.5 : 2.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TicketDataContext/City/City_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="5e1c705c-f99b-429f-ab0f-f7ec8e6ea918" />
+        <classShapeMoniker Id="30eb21a1-9528-499a-b985-6bb12b0671bd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.98599812825521); (3.5 : 1.98599812825521)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TicketDataContext/City/City_Ticket1" />
+      <nodes>
+        <classShapeMoniker Id="5e1c705c-f99b-429f-ab0f-f7ec8e6ea918" />
+        <classShapeMoniker Id="30eb21a1-9528-499a-b985-6bb12b0671bd" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
