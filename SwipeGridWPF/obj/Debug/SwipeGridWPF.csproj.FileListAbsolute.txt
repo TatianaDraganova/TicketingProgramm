@@ -40,3 +40,6 @@ D:\TDr\04.03.2017\SwipeGridWPF\SwipeGridWPF\obj\Debug\MainWindow.baml
 D:\TDr\04.03.2017\SwipeGridWPF\SwipeGridWPF\obj\Debug\SwipeGridWPF.g.resources
 D:\TDr\04.03.2017\SwipeGridWPF\SwipeGridWPF\obj\Debug\SwipeGridWPF.Properties.Resources.resources
 D:\TDr\04.03.2017\SwipeGridWPF\SwipeGridWPF\obj\Debug\SwipeGridWPF.csproj.GenerateResource.Cache
+D:\TDr\TicketingProgramm\SwipeGridWPF\SwipeGridWPF\bin\Debug\SwipeGridWPF.exe.config
+D:\TDr\TicketingProgramm\SwipeGridWPF\SwipeGridWPF\obj\Debug\SwipeGridWPF.exe
+D:\TDr\TicketingProgramm\SwipeGridWPF\SwipeGridWPF\obj\Debug\SwipeGridWPF.pdb
